@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="personBean" class="com.demo.Studies.Person">
+		<property name="Name" value="Anto Peter" />
+		<property name="age" value="24" />
+		<property name="address"
+			value=" 7/36-3, Indira Nagar , Avudayanoor" />
+		<property name="number" value="70925" />
+	</bean>
+	<bean id="personBean1" class="com.demo.Studies.Person">
+		<property name="Name" value="Arun" />
+		<property name="age" value="26" />
+		<property name="address" value="Nagercoil" />
+		<property name="number" value="63548" />
+	</bean>
+	<bean id="personBean2" class="com.demo.Studies.Person">
+		<property name="Name" value="Bala" />
+		<property name="age" value="24" />
+		<property name="address" value="Chennai" />
+		<property name="number" value="79575" />
+	</bean>
+	<bean id="personBean3" class="com.demo.Studies.Person">
+		<property name="Name" value="Sam" />
+		<property name="age" value="25" />
+		<property name="address" value="Avudayanoor" />
+		<property name="number" value="65480" />
+	</bean>
+</beans>
